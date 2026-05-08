@@ -81,7 +81,7 @@ CASE
     ELSE 'New'
 END AS customer_segment,
 last_order_date,
-TIMESTAMPDIFF(month, last_order_date, current_date()) AS recency,
+TIMESTAMPDIFF(month, last_order_date, current_date()) AS recency,       -- Months Since last order
 total_orders,
 total_sales,
 total_quantity,
