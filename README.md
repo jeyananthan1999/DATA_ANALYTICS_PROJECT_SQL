@@ -86,4 +86,11 @@ The Advanced Analytics phase focuses on deriving actionable insights and identif
 - **Microsoft PowerBI**
 - **Reporting & Visualization**
 
+---
+
+## Dashboards
+
+![Data Analytics Project](Docs/Executive_Summary.jpg)
+![Data Analytics Project](Docs/Customer_Analytics.jpg)
+![Data Analytics Project](Docs/Product_Performance.jpg)
 
