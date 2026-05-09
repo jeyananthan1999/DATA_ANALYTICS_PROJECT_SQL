@@ -90,7 +90,9 @@ The Advanced Analytics phase focuses on deriving actionable insights and identif
 
 ## Dashboards
 
-![Data Analytics Project](Docs/Executive_Summary.jpg)
-![Data Analytics Project](Docs/Customer_Analytics.jpg)
-![Data Analytics Project](Docs/Product_Performance.jpg)
+![Data Analytics Project](Dashboards/Executive_Summary.jpg)
+
+![Data Analytics Project](Dashboards/Customer_Analytics.jpg)
+
+![Data Analytics Project](Dashboards/Product_Performance.jpg)
 
