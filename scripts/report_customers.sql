@@ -69,6 +69,9 @@ GROUP BY
 	customer_name,
 	age
 )
+/*---------------------------------------------------------------------------
+  3) Final Query: Combines all customer results into one output
+---------------------------------------------------------------------------*/
 SELECT
 customer_key,
 customer_number,
