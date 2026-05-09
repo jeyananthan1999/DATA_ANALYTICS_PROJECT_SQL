@@ -1,6 +1,6 @@
 # Data Analytics Project
 
-![Data Analytics Project](Data_Analysis.jpg)
+![Data Analytics Project](Docs/Data_Analysis.jpg)
 
 ## Project Overview
 
