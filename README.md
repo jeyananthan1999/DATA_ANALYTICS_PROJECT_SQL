@@ -10,6 +10,16 @@ The project covers multiple analytical approaches including trend analysis, segm
 
 ---
 
+## Project Goals
+
+- Perform structured and scalable data analysis.
+- Identify trends, patterns, and business opportunities.
+- Generate actionable insights using SQL-based analytics.
+- Build a strong foundation for reporting and dashboard development.
+- Demonstrate practical applications of data analytics concepts and techniques.
+
+---
+
 ## Exploratory Data Analysis (EDA)
 
 The EDA phase focuses on understanding the dataset structure, identifying patterns, and exploring relationships within the data.
@@ -22,7 +32,7 @@ The EDA phase focuses on understanding the dataset structure, identifying patter
   Analyzing categorical dimensions such as customers, products, regions, and categories.
 
 - **Date Exploration**  
-  Identifying the earliest and latest dates, Understang the scope of our data and timespan.
+  Identifying the earliest and latest dates, Understanding the scope of our data and timespan.
 
 - **Measures Exploration**  
   Exploring key business metrics such as total_sales, total_quantity, total_orders, total_customers, total_products.
@@ -44,32 +54,25 @@ The Advanced Analytics phase focuses on deriving actionable insights and identif
 
 ### Key Areas Covered
 - **Change-Over-Time Analysis (Trend Analysis)**  
-  Analyzing how business metrics evolve over time.
+  Analyzing how business metrics evolve over time. Help us to track trends and identify seasonality in our data. Example: Analyze sales performance over time.
 
 - **Cumulative Analysis**  
-  Calculating running totals and cumulative performance metrics.
+  Aggregating data progressively over time. helps us understand whether our business is growing or declining.
 
 - **Performance Analysis**  
-  Evaluating product, customer, and category performance using KPIs.
+  Comparing Current Value to Target Value. Helps us to measure success and compare performance
 
 - **Part-to-Whole Analysis (Proportional Analysis)**  
-  Understanding contribution percentages and category share analysis.
+  Analyze how an individual part is performing compared to the overall. Helps us understand which category has the greatest impact in the business.
 
 - **Data Segmentation**  
   Grouping data into meaningful segments for targeted analysis.
 
 - **Reporting**  
-  Creating analytical reports and dashboards for business insights.
-
----
-
-## Project Goals
-
-- Perform structured and scalable data analysis.
-- Identify trends, patterns, and business opportunities.
-- Generate actionable insights using SQL-based analytics.
-- Build a strong foundation for reporting and dashboard development.
-- Demonstrate practical applications of data analytics concepts and techniques.
+  Creating reports for business insights. Here we have reports for customers and products as VIEWS in gold layer.
+  
+- **Dashboards**
+  Using the CSV files exported from MySQL, I have created dashboards like **Executive Summary**, **Customer Analytics** and **Product Performance**
 
 ---
 
@@ -80,5 +83,7 @@ The Advanced Analytics phase focuses on deriving actionable insights and identif
 - **Data Analytics**
 - **Exploratory Data Analysis (EDA)**
 - **Advanced Analytics**
+- **Microsoft PowerBI**
 - **Reporting & Visualization**
+
 
