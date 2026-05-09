@@ -72,7 +72,7 @@ The Advanced Analytics phase focuses on deriving actionable insights and identif
   Creating reports for business insights. Here we have reports for customers and products as VIEWS in gold layer.
   
 - **Dashboards**
-- Using the CSV files exported from MySQL, I have created dashboards like **Executive Summary**, **Customer Analytics** and **Product Performance**
+  Using the CSV files exported from MySQL, I have created dashboards like **Executive Summary**, **Customer Analytics** and **Product Performance**
 
 ---
 
