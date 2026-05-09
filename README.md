@@ -10,7 +10,7 @@ The project covers multiple analytical approaches including trend analysis, segm
 
 ---
 
-# Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 The EDA phase focuses on understanding the dataset structure, identifying patterns, and exploring relationships within the data.
 
@@ -35,7 +35,7 @@ The EDA phase focuses on understanding the dataset structure, identifying patter
 
 ---
 
-# Advanced Analytics
+## Advanced Analytics
 
 The Advanced Analytics phase focuses on deriving actionable insights and identifying deeper business trends.
 
@@ -60,7 +60,7 @@ The Advanced Analytics phase focuses on deriving actionable insights and identif
 
 ---
 
-# Project Goals
+## Project Goals
 
 - Perform structured and scalable data analysis.
 - Identify trends, patterns, and business opportunities.
@@ -70,7 +70,7 @@ The Advanced Analytics phase focuses on deriving actionable insights and identif
 
 ---
 
-# Tools & Technologies
+## Tools & Technologies
 
 - **MySQL**
 - **SQL**
