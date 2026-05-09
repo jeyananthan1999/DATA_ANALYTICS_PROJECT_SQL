@@ -22,13 +22,16 @@ The EDA phase focuses on understanding the dataset structure, identifying patter
   Analyzing categorical dimensions such as customers, products, regions, and categories.
 
 - **Date Exploration**  
-  Analyzing data across different time periods including yearly and monthly trends.
+  Identifying the earliest and latest dates, Understang the scope of our data and timespan.
 
 - **Measures Exploration**  
-  Exploring key business metrics such as sales, quantity, profit, and revenue.
+  Exploring key business metrics such as total_sales, total_quantity, total_orders, total_customers, total_products.
 
 - **Magnitude Analysis**  
-  Identifying the scale and distribution of business metrics.
+  Comparing measure values by categories.
+  Helps us understand the importance of different categories.
+  Example: total customers by country, total products by categories
+  
 
 - **Ranking Analysis**  
   Ranking entities such as top customers, products, and categories based on performance.
