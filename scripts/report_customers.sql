@@ -20,6 +20,12 @@ Highlights:
 		- average monthly spend
 ===============================================================================
 */
+
+-- =============================================================================
+-- Create Report: gold.report_customers
+-- =============================================================================
+DROP VIEW IF EXISTS gold.report_customers;
+
 CREATE VIEW gold.report_customers AS
 
 WITH base_query AS(
@@ -81,7 +87,7 @@ CASE
     ELSE 'New'
 END AS customer_segment,
 last_order_date,
-TIMESTAMPDIFF(month, last_order_date, current_date()) AS recency,       -- Months Since last order
+TIMESTAMPDIFF(month, last_order_date, current_date()) AS recency,   -- Months Since last order
 total_orders,
 total_sales,
 total_quantity,
@@ -94,6 +100,6 @@ END AS avg_order_value,
 -- Compuate average monthly spend
 CASE WHEN lifespan = 0 THEN total_sales            -- lifespan = 0 means, only one month
      ELSE total_sales / lifespan
-END AS avg_monthly_spend
+END AS avg_monthly_spend;
 FROM customer_aggregation
 ORDER BY customer_name ASC;
